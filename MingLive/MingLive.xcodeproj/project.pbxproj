@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3A286CB71DF15078002CEEE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A286CB61DF15078002CEEE8 /* AppDelegate.swift */; };
-		3A286CB91DF15078002CEEE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A286CB81DF15078002CEEE8 /* ViewController.swift */; };
 		3A286CBC1DF15078002CEEE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A286CBA1DF15078002CEEE8 /* Main.storyboard */; };
-		3A286CBE1DF15078002CEEE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A286CBD1DF15078002CEEE8 /* Assets.xcassets */; };
 		3A286CC11DF15078002CEEE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A286CBF1DF15078002CEEE8 /* LaunchScreen.storyboard */; };
+		3A286CC91DF16774002CEEE8 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A286CC81DF16774002CEEE8 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A286CB31DF15078002CEEE8 /* MingLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MingLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A286CB61DF15078002CEEE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A286CB81DF15078002CEEE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A286CBB1DF15078002CEEE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3A286CBD1DF15078002CEEE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A286CC01DF15078002CEEE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A286CC21DF15078002CEEE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A286CC81DF16774002CEEE8 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ../Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +52,69 @@
 		3A286CB51DF15078002CEEE8 /* MingLive */ = {
 			isa = PBXGroup;
 			children = (
+				3A286CCA1DF169B6002CEEE8 /* Classes */,
 				3A286CB61DF15078002CEEE8 /* AppDelegate.swift */,
-				3A286CB81DF15078002CEEE8 /* ViewController.swift */,
 				3A286CBA1DF15078002CEEE8 /* Main.storyboard */,
-				3A286CBD1DF15078002CEEE8 /* Assets.xcassets */,
 				3A286CBF1DF15078002CEEE8 /* LaunchScreen.storyboard */,
 				3A286CC21DF15078002CEEE8 /* Info.plist */,
+				3A286CC81DF16774002CEEE8 /* Media.xcassets */,
 			);
 			path = MingLive;
+			sourceTree = "<group>";
+		};
+		3A286CCA1DF169B6002CEEE8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3A286CCB1DF169B6002CEEE8 /* Follow */,
+				3A286CCC1DF169B6002CEEE8 /* Home */,
+				3A286CCD1DF169B6002CEEE8 /* Live */,
+				3A286CCE1DF169B6002CEEE8 /* Main */,
+				3A286CCF1DF169B6002CEEE8 /* Profile */,
+				3A286CD01DF169B6002CEEE8 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3A286CCB1DF169B6002CEEE8 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		3A286CCC1DF169B6002CEEE8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3A286CCD1DF169B6002CEEE8 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		3A286CCE1DF169B6002CEEE8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3A286CCF1DF169B6002CEEE8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3A286CD01DF169B6002CEEE8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A286CC11DF15078002CEEE8 /* LaunchScreen.storyboard in Resources */,
-				3A286CBE1DF15078002CEEE8 /* Assets.xcassets in Resources */,
+				3A286CC91DF16774002CEEE8 /* Media.xcassets in Resources */,
 				3A286CBC1DF15078002CEEE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +190,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A286CB91DF15078002CEEE8 /* ViewController.swift in Sources */,
 				3A286CB71DF15078002CEEE8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +311,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = KEXH7L5L4Z;
 				INFOPLIST_FILE = MingLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gamegs.MingLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,8 +326,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = KEXH7L5L4Z;
 				INFOPLIST_FILE = MingLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gamegs.MingLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +356,7 @@
 				3A286CC71DF15078002CEEE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
