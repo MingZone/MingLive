@@ -16,6 +16,7 @@
 		3A286CD81DF178AC002CEEE8 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A286CD61DF178AC002CEEE8 /* Follow.storyboard */; };
 		3A286CDA1DF178D7002CEEE8 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A286CD91DF178D7002CEEE8 /* Profile.storyboard */; };
 		3A286CDC1DF17965002CEEE8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A286CDB1DF17965002CEEE8 /* MainViewController.swift */; };
+		3A2D3FA41DF50AD4005447B5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D3FA31DF50AD4005447B5 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3A286CD71DF178AC002CEEE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MingLive/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
 		3A286CD91DF178D7002CEEE8 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = ../Main/Profile.storyboard; sourceTree = "<group>"; };
 		3A286CDB1DF17965002CEEE8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3A2D3FA31DF50AD4005447B5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				3A286CD11DF1774F002CEEE8 /* Home.storyboard */,
+				3A2D3FA31DF50AD4005447B5 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			files = (
 				3A286CB71DF15078002CEEE8 /* AppDelegate.swift in Sources */,
 				3A286CDC1DF17965002CEEE8 /* MainViewController.swift in Sources */,
+				3A2D3FA41DF50AD4005447B5 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
